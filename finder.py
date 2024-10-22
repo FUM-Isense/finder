@@ -25,7 +25,7 @@ def debug(detected_image, depth_colormap):
         # Show images
         cv2.imshow('Yolo in RealSense', images)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(0) & 0xFF == ord(' '):
 
             return True
         
